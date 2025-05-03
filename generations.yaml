@@ -1,0 +1,30 @@
+generations:
+  - name: "VB"
+    start_year: 1978
+    end_year: 1980
+    description: "The original Holden Commodore was introduced as a replacement for the larger Kingswood, representing Holden's response to the global fuel crisis with a more efficient, European-influenced design. Based on the Opel Rekord/Senator, but modified for Australian conditions, it featured a rear-wheel drive layout with either inline-six or V8 engines. Available in sedan and wagon body styles across various trim levels, it established the Commodore nameplate that would become an Australian automotive icon. Despite initial criticism for its smaller size compared to the Kingswood, the VB Commodore proved successful, combining respectable performance with improved efficiency."
+
+  - name: "VC, VH, VK, VL"
+    start_year: 1980
+    end_year: 1988
+    description: "These iterations refined the first-generation Commodore concept with progressive updates to styling, engineering, and features. The VC introduced a five-speed manual transmission and improved electronics. The VH featured revised exterior styling and interior improvements. The VK received a significant facelift with a more squared-off design. The VL represented the most substantial update with new sheet metal and the controversial replacement of Holden's inline-six with a Nissan-sourced 3.0L engine (alongside the optional V8), plus the introduction of a turbocharged variant. Throughout these series, the Commodore maintained its position as a core model in Holden's lineup, offering a balance of performance, comfort, and practicality."
+
+  - name: "VN, VP, VR, VS"
+    start_year: 1988
+    end_year: 1997
+    description: "The second-generation Commodore marked a return to larger dimensions, with the VN based on a widened Opel Omega A platform. Engine options included a 3.8L V6 and a 5.0L V8, with later high-performance variants developed by Holden Special Vehicles (HSV). Through the VP, VR, and VS updates, the Commodore received progressive improvements to safety, refinement, and technology. The VR and VS in particular featured significantly improved interior quality and design. This generation firmly established the Commodore as Australia's best-selling car for much of its run, appealing to families, fleet buyers, and performance enthusiasts alike with its combination of space, capability, and value."
+
+  - name: "VT, VX, VY, VZ"
+    start_year: 1997
+    end_year: 2006
+    description: "The third-generation Commodore was based on the Opel Omega B platform but extensively modified for Australian requirements. The VT introduced more sophisticated styling, improved safety, and enhanced refinement. Engine options evolved to include an upgraded 3.8L V6 and later a Gen III 5.7L V8. The VX, VY, and VZ updates brought incremental improvements to styling, technology, and powertrains, with the VZ introducing the locally developed Alloytec V6. This generation expanded to include the Monaro coupe and all-wheel drive variants, demonstrating the platform's versatility. Throughout this period, the Commodore maintained its position as a cornerstone of Australian car culture and Holden's most important model."
+
+  - name: "VE, VF"
+    start_year: 2006
+    end_year: 2017
+    description: "The fourth-generation Commodore was the first to be wholly developed in Australia, using GM's global Zeta platform. The VE featured more muscular styling, improved structural rigidity, and better dynamics. Engine options included V6 and V8 powerplants, with the lineup spanning from workhorse fleet models to luxury variants and high-performance SS versions. The VF update in 2013 brought more sophisticated styling, dramatically improved interior quality, and advanced technology including MyLink infotainment. Despite its critical acclaim, this generation faced declining sales as consumer preferences shifted toward SUVs and smaller, more efficient vehicles. The locally manufactured Commodore concluded production in October 2017 with the closure of Holden's Elizabeth plant, marking the end of Australian car manufacturing."
+
+  - name: "ZB (Imported)"
+    start_year: 2018
+    end_year: 2020
+    description: "The final Commodore was a rebadged Opel Insignia/Vauxhall Insignia, representing a fundamental shift from the traditional rear-wheel drive, Australian-built formula to an imported front-wheel drive (or all-wheel drive) platform. Available in liftback sedan and wagon body styles, it featured turbocharged four-cylinder engines in most variants, with a naturally aspirated V6 in higher-end models. While technically accomplished with modern technology, refined driving dynamics, and improved efficiency, the ZB Commodore struggled to gain acceptance among traditional Commodore buyers who valued the previous generations' rear-wheel drive performance characteristics. Following General Motors' decision to retire the Holden brand, the Commodore was discontinued in 2020, ending a 42-year nameplate that had defined Australian automotive culture for generations."
