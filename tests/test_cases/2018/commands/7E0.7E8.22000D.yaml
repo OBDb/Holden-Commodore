@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22000D
+test_cases:
+- expected_values:
+    HOLDEN_VSS: 0
+  response: 7E80462000D00
+- expected_values:
+    HOLDEN_VSS: 8
+  response: 7E80462000D08
+- expected_values:
+    HOLDEN_VSS: 24
+  response: 7E80462000D18
