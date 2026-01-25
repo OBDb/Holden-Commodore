@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/Holden_Commodore"
+
 generations:
   - name: "VB"
     start_year: 1978
@@ -16,7 +19,7 @@ generations:
 
   - name: "VT, VX, VY, VZ"
     start_year: 1997
-    end_year: 2006
+    end_year: 2007
     description: "The third-generation Commodore was based on the Opel Omega B platform but extensively modified for Australian requirements. The VT introduced more sophisticated styling, improved safety, and enhanced refinement. Engine options evolved to include an upgraded 3.8L V6 and later a Gen III 5.7L V8. The VX, VY, and VZ updates brought incremental improvements to styling, technology, and powertrains, with the VZ introducing the locally developed Alloytec V6. This generation expanded to include the Monaro coupe and all-wheel drive variants, demonstrating the platform's versatility. Throughout this period, the Commodore maintained its position as a cornerstone of Australian car culture and Holden's most important model."
 
   - name: "VE, VF"
