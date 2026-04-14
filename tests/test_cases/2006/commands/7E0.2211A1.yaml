@@ -1,0 +1,38 @@
+command_id: 7E0.2211A1
+test_cases:
+- expected_values:
+    HOLDEN_RUNTM: 767
+  response: '000 05 62 11 A1 02 FF '
+- expected_values:
+    HOLDEN_RUNTM: 25
+  response: |-
+    2211A1
+    7EA056211A10019
+- expected_values:
+    HOLDEN_RUNTM: 944
+  response: |-
+    2211A1
+    7EA056211A103B0
+- expected_values:
+    HOLDEN_RUNTM: 970
+  response: |-
+    2211A1
+    7EA056211A103CA
+- expected_values:
+    HOLDEN_RUNTM: 314
+  response: '7EA 05 62 11 A1 01 3A '
+- expected_values:
+    HOLDEN_RUNTM: 525
+  response: '7EA 05 62 11 A1 02 0D '
+- expected_values:
+    HOLDEN_RUNTM: 0
+  response: 7EA056211A10000
+- expected_values:
+    HOLDEN_RUNTM: 268
+  response: 7EA056211A1010C
+- expected_values:
+    HOLDEN_RUNTM: 1279
+  response: 7EA056211A104FF
+- expected_values:
+    HOLDEN_RUNTM: 2342
+  response: 7EA056211A10926
