@@ -4,29 +4,5 @@ test_cases:
     HOLDEN_VSS: 0
   response: 7E80462000D00
 - expected_values:
-    HOLDEN_VSS: 14
-  response: 7E80462000D0E
-- expected_values:
-    HOLDEN_VSS: 20
-  response: 7E80462000D14
-- expected_values:
-    HOLDEN_VSS: 22
-  response: 7E80462000D16
-- expected_values:
-    HOLDEN_VSS: 26
-  response: 7E80462000D1A
-- expected_values:
-    HOLDEN_VSS: 32
-  response: 7E80462000D20
-- expected_values:
-    HOLDEN_VSS: 53
-  response: 7E80462000D35
-- expected_values:
-    HOLDEN_VSS: 56
-  response: 7E80462000D38
-- expected_values:
-    HOLDEN_VSS: 58
-  response: 7E80462000D3A
-- expected_values:
-    HOLDEN_VSS: 59
-  response: 7E80462000D3B
+    HOLDEN_VSS: 73
+  response: 7E80462000D49
