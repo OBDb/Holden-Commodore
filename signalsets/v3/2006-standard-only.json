@@ -1,0 +1,467 @@
+{
+  "commands": [
+    {
+      "hdr": "7E0",
+      "rax": "7E8",
+      "proto": "15765-4-11bit",
+      "cmd": {
+        "01": "05"
+      },
+      "freq": 0.5,
+      "filter": {
+        "years": [
+          2006
+        ]
+      },
+      "signals": [
+        {
+          "id": "[ECM] Engine coolant temperature",
+          "name": "Engine coolant temperature",
+          "fmt": {
+            "len": 8,
+            "max": 215,
+            "unit": "celsius",
+            "min": -40,
+            "add": -40
+          },
+          "path": "Engine",
+          "description": "From AVT SAE CAN Alloytec2 v1.02 ADX; raw A - 40.",
+          "suggestedMetric": "engineCoolantTemperature"
+        }
+      ]
+    },
+    {
+      "hdr": "7E0",
+      "rax": "7E8",
+      "proto": "15765-4-11bit",
+      "cmd": {
+        "01": "07"
+      },
+      "freq": 0.5,
+      "filter": {
+        "years": [
+          2006
+        ]
+      },
+      "signals": [
+        {
+          "id": "[ECM] Long term fuel trim bank 1",
+          "name": "Long term fuel trim bank 1",
+          "fmt": {
+            "len": 8,
+            "max": 99.21875,
+            "unit": "percent",
+            "min": -100,
+            "mul": 100,
+            "div": 128,
+            "add": -100
+          },
+          "path": "Fuel",
+          "description": "The ADX displays the raw byte. This file applies the SAE J1979 scaling: A*100/128-100."
+        }
+      ]
+    },
+    {
+      "hdr": "7E0",
+      "rax": "7E8",
+      "proto": "15765-4-11bit",
+      "cmd": {
+        "01": "09"
+      },
+      "freq": 0.5,
+      "filter": {
+        "years": [
+          2006
+        ]
+      },
+      "signals": [
+        {
+          "id": "[ECM] Long term fuel trim bank 2",
+          "name": "Long term fuel trim bank 2",
+          "fmt": {
+            "len": 8,
+            "max": 99.21875,
+            "unit": "percent",
+            "min": -100,
+            "mul": 100,
+            "div": 128,
+            "add": -100
+          },
+          "path": "Fuel",
+          "description": "The ADX displays the raw byte. This file applies the SAE J1979 scaling: A*100/128-100."
+        }
+      ]
+    },
+    {
+      "hdr": "7E0",
+      "rax": "7E8",
+      "proto": "15765-4-11bit",
+      "cmd": {
+        "01": "0B"
+      },
+      "freq": 0.5,
+      "filter": {
+        "years": [
+          2006
+        ]
+      },
+      "signals": [
+        {
+          "id": "[ECM] Manifold absolute pressure",
+          "name": "Manifold absolute pressure",
+          "fmt": {
+            "len": 8,
+            "max": 255,
+            "unit": "kilopascal"
+          },
+          "path": "Engine",
+          "description": "From the Alloytec ADX; raw A in kPa."
+        }
+      ]
+    },
+    {
+      "hdr": "7E0",
+      "rax": "7E8",
+      "proto": "15765-4-11bit",
+      "cmd": {
+        "01": "0C"
+      },
+      "freq": 0.5,
+      "filter": {
+        "years": [
+          2006
+        ]
+      },
+      "signals": [
+        {
+          "id": "[ECM] Engine speed",
+          "name": "Engine speed",
+          "fmt": {
+            "len": 16,
+            "max": 16383.75,
+            "unit": "rpm",
+            "div": 4
+          },
+          "path": "Engine",
+          "description": "From the Alloytec ADX; (A*256+B)/4."
+        }
+      ]
+    },
+    {
+      "hdr": "7E0",
+      "rax": "7E8",
+      "proto": "15765-4-11bit",
+      "cmd": {
+        "01": "0D"
+      },
+      "freq": 0.5,
+      "filter": {
+        "years": [
+          2006
+        ]
+      },
+      "signals": [
+        {
+          "id": "[ECM] Vehicle speed",
+          "name": "Vehicle speed",
+          "fmt": {
+            "len": 8,
+            "max": 255,
+            "unit": "kilometersPerHour"
+          },
+          "path": "Movement",
+          "description": "From the Alloytec ADX; raw A in km/h.",
+          "suggestedMetric": "speed"
+        }
+      ]
+    },
+    {
+      "hdr": "7E0",
+      "rax": "7E8",
+      "proto": "15765-4-11bit",
+      "cmd": {
+        "01": "0E"
+      },
+      "freq": 0.5,
+      "filter": {
+        "years": [
+          2006
+        ]
+      },
+      "signals": [
+        {
+          "id": "[ECM] Spark advance",
+          "name": "Spark advance",
+          "fmt": {
+            "len": 8,
+            "max": 63.5,
+            "unit": "degrees",
+            "min": -64,
+            "div": 2,
+            "add": -64
+          },
+          "path": "Engine",
+          "description": "From the Alloytec ADX; A/2-64."
+        }
+      ]
+    },
+    {
+      "hdr": "7E0",
+      "rax": "7E8",
+      "proto": "15765-4-11bit",
+      "cmd": {
+        "01": "0F"
+      },
+      "freq": 0.5,
+      "filter": {
+        "years": [
+          2006
+        ]
+      },
+      "signals": [
+        {
+          "id": "[ECM] Intake air temperature",
+          "name": "Intake air temperature",
+          "fmt": {
+            "len": 8,
+            "max": 215,
+            "unit": "celsius",
+            "min": -40,
+            "add": -40
+          },
+          "path": "Engine",
+          "description": "From the Alloytec ADX; A-40."
+        }
+      ]
+    },
+    {
+      "hdr": "7E0",
+      "rax": "7E8",
+      "proto": "15765-4-11bit",
+      "cmd": {
+        "01": "10"
+      },
+      "freq": 0.5,
+      "filter": {
+        "years": [
+          2006
+        ]
+      },
+      "signals": [
+        {
+          "id": "[ECM] Mass air flow",
+          "name": "Mass air flow",
+          "fmt": {
+            "len": 16,
+            "max": 655.35,
+            "unit": "gramsPerSecond",
+            "div": 100
+          },
+          "path": "Engine",
+          "description": "From the Alloytec ADX; (A*256+B)/100.",
+          "suggestedMetric": "massAirFlow"
+        }
+      ]
+    },
+    {
+      "hdr": "7E0",
+      "rax": "7E8",
+      "proto": "15765-4-11bit",
+      "cmd": {
+        "01": "11"
+      },
+      "freq": 0.5,
+      "filter": {
+        "years": [
+          2006
+        ]
+      },
+      "signals": [
+        {
+          "id": "[ECM] Throttle position",
+          "name": "Throttle position",
+          "fmt": {
+            "len": 8,
+            "max": 100,
+            "unit": "percent",
+            "mul": 100,
+            "div": 255
+          },
+          "path": "Engine",
+          "description": "From the Alloytec ADX; A*100/255.",
+          "suggestedMetric": "throttlePosition"
+        }
+      ]
+    },
+    {
+      "hdr": "7E0",
+      "rax": "7E8",
+      "proto": "15765-4-11bit",
+      "cmd": {
+        "01": "14"
+      },
+      "freq": 0.5,
+      "filter": {
+        "years": [
+          2006
+        ]
+      },
+      "signals": [
+        {
+          "id": "[ECM] O2 bank 1 sensor 1 voltage",
+          "name": "Oxygen sensor bank 1 sensor 1 voltage",
+          "fmt": {
+            "len": 8,
+            "max": 1275,
+            "unit": "millivolts",
+            "mul": 5
+          },
+          "path": "Emissions",
+          "description": "From the Alloytec ADX variant; first response byte A*5 mV."
+        }
+      ]
+    },
+    {
+      "hdr": "7E0",
+      "rax": "7E8",
+      "proto": "15765-4-11bit",
+      "cmd": {
+        "01": "15"
+      },
+      "freq": 0.5,
+      "filter": {
+        "years": [
+          2006
+        ]
+      },
+      "signals": [
+        {
+          "id": "[ECM] O2 bank 1 sensor 2 voltage",
+          "name": "Oxygen sensor bank 1 sensor 2 voltage",
+          "fmt": {
+            "len": 8,
+            "max": 1275,
+            "unit": "millivolts",
+            "mul": 5
+          },
+          "path": "Emissions",
+          "description": "From AVT SAE CAN Alloytec2 v1.02; first response byte A*5 mV."
+        }
+      ]
+    },
+    {
+      "hdr": "7E0",
+      "rax": "7E8",
+      "proto": "15765-4-11bit",
+      "cmd": {
+        "01": "18"
+      },
+      "freq": 0.5,
+      "filter": {
+        "years": [
+          2006
+        ]
+      },
+      "signals": [
+        {
+          "id": "[ECM] O2 bank 2 sensor 1 voltage",
+          "name": "Oxygen sensor bank 2 sensor 1 voltage",
+          "fmt": {
+            "len": 8,
+            "max": 1275,
+            "unit": "millivolts",
+            "mul": 5
+          },
+          "path": "Emissions",
+          "description": "From the Alloytec ADX alternate sensor arrangement; first response byte A*5 mV."
+        }
+      ]
+    },
+    {
+      "hdr": "7E0",
+      "rax": "7E8",
+      "proto": "15765-4-11bit",
+      "cmd": {
+        "01": "19"
+      },
+      "freq": 0.5,
+      "filter": {
+        "years": [
+          2006
+        ]
+      },
+      "signals": [
+        {
+          "id": "[ECM] O2 bank 2 sensor 2 voltage",
+          "name": "Oxygen sensor bank 2 sensor 2 voltage",
+          "fmt": {
+            "len": 8,
+            "max": 1275,
+            "unit": "millivolts",
+            "mul": 5
+          },
+          "path": "Emissions",
+          "description": "From AVT SAE CAN Alloytec2 v1.02; first response byte A*5 mV."
+        }
+      ]
+    },
+    {
+      "hdr": "7E0",
+      "rax": "7E8",
+      "proto": "15765-4-11bit",
+      "cmd": {
+        "01": "34"
+      },
+      "freq": 0.5,
+      "filter": {
+        "years": [
+          2006
+        ]
+      },
+      "signals": [
+        {
+          "id": "[ECM] Wideband bank 1 equivalence ratio",
+          "name": "Wideband oxygen sensor bank 1 equivalence ratio",
+          "fmt": {
+            "len": 16,
+            "max": 1.999969482421875,
+            "unit": "scalar",
+            "div": 32768
+          },
+          "path": "Emissions",
+          "description": "From the Alloytec ADX; first two response data bytes divided by 32768.",
+          "suggestedMetric": "o2Lambda"
+        }
+      ]
+    },
+    {
+      "hdr": "7E0",
+      "rax": "7E8",
+      "proto": "15765-4-11bit",
+      "cmd": {
+        "01": "38"
+      },
+      "freq": 0.5,
+      "filter": {
+        "years": [
+          2006
+        ]
+      },
+      "signals": [
+        {
+          "id": "[ECM] Wideband bank 2 equivalence ratio",
+          "name": "Wideband oxygen sensor bank 2 equivalence ratio",
+          "fmt": {
+            "len": 16,
+            "max": 1.999969482421875,
+            "unit": "scalar",
+            "div": 32768
+          },
+          "path": "Emissions",
+          "description": "From the Alloytec ADX; first two response data bytes divided by 32768.",
+          "suggestedMetric": "o2Lambda"
+        }
+      ]
+    }
+  ]
+}
