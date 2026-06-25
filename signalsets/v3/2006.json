@@ -57,7 +57,7 @@
             "add": -100
           },
           "path": "Fuel",
-          "description": "The ADX displays the raw byte. This file applies the SAE J1979 scaling: A*100/128-100."
+          "description": "The ADX displays the raw byte.This file applies the SAE J1979 scaling: A*100/128-100."
         }
       ]
     },
@@ -88,7 +88,7 @@
             "add": -100
           },
           "path": "Fuel",
-          "description": "The ADX displays the raw byte. This file applies the SAE J1979 scaling: A*100/128-100."
+          "description": "The ADX displays the raw byte.This file applies the SAE J1979 scaling: A*100/128-100."
         }
       ]
     },
