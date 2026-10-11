@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22153E|fc=1
+test_cases:
+- expected_values:
+    COMMODORE_EOT_ALT: 102
+  response: '7E8 04 62 15 3E 8E '
+- expected_values:
+    COMMODORE_EOT_ALT: 103
+  response: '7E8 04 62 15 3E 8F '
