@@ -1,0 +1,13 @@
+command_id: 7E2.7EA.221940
+test_cases:
+- expected_values:
+    COMMODORE_ATF_T: 47
+  response: |-
+    221940
+    7EA0462194057
+- expected_values:
+    COMMODORE_ATF_T: 25
+  response: 7EA0462194041
+- expected_values:
+    COMMODORE_ATF_T: 48
+  response: 7EA0462194058
